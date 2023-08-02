@@ -21,22 +21,17 @@ Clone the repository:
 
    Navigate to the project directory:
 
-bash
-Copy code
 cd chat-app
 Install the dependencies:
 
-bash
-Copy code
 npm install
 Configuration
 Create a .env file in the root directory of the project.
+
 Usage
 Start the server:
-
-bash
-Copy code
 npm start
+
 The server will start on http://localhost:3001.
 
 Open your browser and navigate to http://localhost:3001 to access the chat app.
