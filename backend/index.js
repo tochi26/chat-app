@@ -1,27 +1,33 @@
+require('dotenv').config(); // Add this line
+
 const express = require("express");
 const cors = require("cors");
-const { default: axios } = require("axios");
+const axios = require("axios");
 
 const app = express();
 app.use(express.json());
 app.use(cors({ origin: true }));
 
+const PRIVATE_KEY = process.env.PRIVATE_KEY;
+
 app.post("/authenticate", async (req, res) => {
   const { username } = req.body;
 
   try {
-    const r = await axios.put(
-        'https://api.chatengine.io/users/',
-        {username: username, secret: username, first_name: username},
-        {headers: {"private-key": "223784b8-15ed-4353-8692-da7efb27e41b" }}
-    )
-    return res.status(r.status).json(r.data)
-  } catch (e) {
-    return res.status(e.response.status).json(e.response.data)  
-  }
+    const response = await axios.put(
+      'https://api.chatengine.io/users/',
+      { username: username, secret: username, first_name: username },
+      { headers: { "private-key": PRIVATE_KEY } }
+    );
 
-  
-  return res.json({ username: username, secret: "sha256..." });
+    return res.status(response.status).json(response.data);
+  } catch (error) {
+    return res.status(error.response.status).json(error.response.data);
+  }
 });
 
-app.listen(3001);
+const PORT = process.env.PORT || 3001;
+
+app.listen(PORT, () => {
+  console.log(`Server is running on port ${PORT}`);
+});
