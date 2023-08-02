@@ -23,8 +23,8 @@ Clone the repository:
 
 cd chat-app
 Install the dependencies:
-
 npm install
+
 Configuration
 Create a .env file in the root directory of the project.
 
