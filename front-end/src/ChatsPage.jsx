@@ -1,5 +1,4 @@
 import React from 'react';
-import { PrettyChatWindow } from 'react-chat-engine-pretty';
 import { MultiChatSocket, MultiChatWindow, useMultiChatLogic } from 'react-chat-engine-advanced';
 
 const ChatsPage = (props) => {
@@ -13,7 +12,6 @@ const ChatsPage = (props) => {
         <div style={{ height: '100vh' }}>
             <MultiChatSocket {...chatProps} />
             <MultiChatWindow {...chatProps} style={{ height: '100%' }} />
-            
         </div>
     );
 }
