@@ -35,5 +35,5 @@ The server will start on http://localhost:3001.
 
 Open your browser and navigate to http://localhost:3001 to access the chat app.
 
-Author
+## Author
 This project was created by Tochukwu Nzewi. 
