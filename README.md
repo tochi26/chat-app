@@ -2,38 +2,16 @@
 
 Welcome to the Chat App with Node.js, React and ChatEngine! This application provides a simple and efficient platform for real-time communication, allowing users to authenticate and exchange messages seamlessly.
 
-## Getting Started
+## ChatApp - Real-time Chat Application
 
-To run this app on your local machine, follow the steps below:
+ChatApp is a real-time chat application built using TypeScript, JavaScript, and React. It allows users to connect with each other and engage in instant messaging in a seamless and user-friendly interface. This project demonstrates the integration of modern web technologies to create a responsive and interactive chat experience.
 
-### Prerequisites
+![App Screenshot](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/y4n7sz55u0pnaxprajdq.png)
 
-Before you begin, make sure you have the following installed on your machine:
+## License
 
-- Node.js: Download and install Node.js from the official website: [https://nodejs.org/](https://nodejs.org/)
-
-
-## Getting Started
-To get started with the Chat App, follow these steps:
-
-Clone the repository:
-
-git clone https://github.com/your-username/chat-app.git
-Navigate to the project directory:
-
-cd chat-app
-Install the dependencies:
-npm install
-
-## Configuration
-Create a .env file in the root directory of the project and add any necessary configurations.
-
-## Usage
-Start the server:
-npm start
-The server will start on http://localhost:3001.
-
-Open your browser and navigate to http://localhost:3001 to access the chat app.
+This project is licensed under the MIT License.
 
 ## Author
-This project was created by Tochukwu Nzewi. 
+
+This project was created by Tochukwu Nzewi.
