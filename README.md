@@ -1,4 +1,4 @@
-# ## ChatApp - Real-time Chat Application with Node.js, React and ChatEngine
+## ChatApp - Real-time Chat Application with Node.js, React and ChatEngine
 
 Welcome to the Chat App with Node.js, React and ChatEngine! This application provides a simple and efficient platform for real-time communication, allowing users to authenticate and exchange messages seamlessly.
 
