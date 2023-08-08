@@ -6,7 +6,7 @@ Welcome to the Chat App with Node.js, React and ChatEngine! This application pro
 
 ChatApp is a real-time chat application built using TypeScript, JavaScript, and React. It allows users to connect with each other and engage in instant messaging in a seamless and user-friendly interface. This project demonstrates the integration of modern web technologies to create a responsive and interactive chat experience.
 
-![App Screenshot](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/y4n7sz55u0pnaxprajdq.png)
+![Image description](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/a0j72hruf6exfdpsdjlk.png)
 
 ## License
 
